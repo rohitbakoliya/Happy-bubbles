@@ -1,0 +1,26 @@
+body {
+  margin: 0px;
+  /*background-color: rgb(255, 204, 204);*/
+  background: linear-gradient(
+    -45deg,
+    rgb(226, 211, 207),
+    rgb(219, 173, 191),
+    rgb(156, 201, 218),
+    rgb(132, 243, 217)
+  );
+  animation: Gradient 15s ease infinite;
+  background-size: 400% 400%;
+
+  overflow: hidden;
+}
+@keyframes Gradient {
+  0% {
+    background-position: 0% 50%;
+  }
+  50% {
+    background-position: 100% 50%;
+  }
+  100% {
+    background-position: 0% 50%;
+  }
+}
